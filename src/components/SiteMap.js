@@ -33,9 +33,6 @@ const SiteMap = (props) => (
                             <Link to="/lights">Find Your Lights</Link>
                         </li>
                         <li>
-                            <Link to="/letseat">Let's Eat</Link>
-                        </li>
-                        <li>
                             <Link to="/artgenerator">Modern Art Generator</Link>
                         </li>
                     </ul>

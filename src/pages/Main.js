@@ -81,31 +81,6 @@ class App extends Component {
                   description="Application allows user to find when Northern Lights will be visible"
               />
             </Link>
-            {/* ------Lets Eat------ */}
-            <Link to="/letseat" className="port-row sm-row-even">
-              <PortfoScreen
-                  className="portScreen2"
-                  src={restaurants}
-                  alt="Screenshot of Lets Eat"
-              />
-              <PortfoDesc 
-                  className="portDesc2"
-                  title="Let's Eat"
-                  description="User generated list tracks restaurants to try and record the ones worth returning to"
-              />
-            </Link>
-            <Link to="/letseat" className="port-row md-row-even">
-              <PortfoDesc 
-                  className="portDesc2"
-                  title="Let's Eat"
-                  description="User generated list tracks restaurants to try and record the ones worth returning to"
-              />
-              <PortfoScreen
-                  className="portScreen2"
-                  src={restaurants}
-                  alt="Screenshot of Lets Eat"
-              />
-            </Link>
             {/* ------Art Generator------ */}
             <Link to="/artgenerator" className="port-row sm-row-even">
               <PortfoScreen

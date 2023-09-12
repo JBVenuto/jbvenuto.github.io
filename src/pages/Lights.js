@@ -50,7 +50,7 @@ class Lights extends Component {
                 <a href="/publesstrivia">
                     <IoIosArrowBack className="arrow-back" />
                 </a>
-                <a href="/letseat">
+                <a href="/artgenerator">
                     <IoIosArrowForward className="arrow-forward" />
                 </a>
                 <SiteMap />
