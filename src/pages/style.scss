@@ -1,0 +1,294 @@
+$orange: #FFA500;
+
+@mixin font-main() {
+    font-family: 'Roboto', sans-serif;
+    color      : $orange;
+}
+
+@mixin anchor() {
+    display   : block;
+    position  : relative;
+    visibility: hidden;
+    top       : -30px;
+}
+
+body {
+    background-image: url(../images/mainpage/back_pattern.png);
+}
+
+.wide-nav {
+    background-color: white;
+    position        : fixed;
+    top             : 0;
+    width           : 100%;
+    z-index         : 1000;
+
+    .nav {
+        border-bottom-style: solid;
+        padding-top        : 5px;
+        padding-bottom     : 5px;
+
+        a {
+            margin : 10px 5px;
+            padding: 5px;
+            @include font-main();
+        }
+    }
+}
+
+.nav-icon {
+    font-size: 20px;
+}
+
+.header {
+    background-color: white;
+    text-align      : center;
+    margin-top      : 75px;
+    margin-bottom   : 15px;
+    display         : flex;
+    justify-content : space-around;
+    align-items     : center;
+
+    .name__wrap {
+        width: 50%;
+
+        .header__name {
+            width : 60%;
+            margin: auto;
+        }
+    }
+
+    .header__logo {
+        width: 50%;
+
+        img {
+            width : 25%;
+            height: auto;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        flex-direction: column-reverse;
+
+        .name__wrap {
+            width: 100%;
+        }
+
+        .header__logo {
+            width: 100%;
+        }
+    }
+}
+
+#skills {
+    @include anchor();
+}
+
+.skills {
+    margin               : 25px 0;
+    display              : grid;
+    width                : 100%;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-column-gap      : 3px;
+    grid-row-gap         : 3px;
+}
+
+.skill {
+    background-color: $orange;
+    color           : white;
+    margin          : 3px;
+    border-radius   : 3px;
+    text-align      : center;
+    font-family     : 'Roboto', sans-serif;
+}
+
+#portfolio {
+    @include anchor();
+}
+
+.port-row {
+    margin-bottom        : 50px;
+    display              : grid;
+    grid-template-columns: 49.5% 49.5%;
+    grid-column-gap      : 1em;
+
+    @media only screen and (max-width: 992px) {
+        grid-template-columns: auto;
+        margin-top           : 5px;
+    }
+}
+
+.sm-row-even {
+    display: none;
+}
+
+.port-screen {
+    width: 100%;
+
+    .screenshot {
+        width : 100%;
+        height: auto;
+    }
+}
+
+.port-desc {
+    @include font-main();
+    text-align      : center;
+    background-color: white;
+    padding-top     : 80px;
+    height          : 100%;
+
+    .port-title {
+        text-decoration: underline;
+    }
+}
+
+#about {
+    @include anchor();
+}
+
+.all-about {
+    margin-top           : 30px;
+    margin-bottom        : 15px;
+    display              : grid;
+    grid-template-columns: 33% 66%;
+    grid-column-gap      : 1em;
+
+    .about-desc {
+        background-color: white;
+        padding-top     : 30px;
+        font-family     : 'Roboto', sans-serif;
+
+        h3 {
+            text-align: center;
+        }
+
+        p {
+            font-size: 15px;
+            padding  : 8px;
+        }
+    }
+
+    .about-headshot {
+        display: flex;
+        align-items: center;
+        height: 100%;
+
+        .headshot {
+            width : 100%;
+            height: auto;
+        }
+    }
+}
+
+.site-map {
+    background-color: darkgray;
+    width           : 100%;
+    padding-top     : 8px;
+    border-top      : 2px solid $orange;
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        color: white;
+    }
+}
+
+.foot-icon {
+    font-size  : 30px;
+    margin-left: 5px;
+    float      : right;
+}
+
+// medium screens
+@media only screen and (max-width: 992px) {
+    .skills {
+        display              : grid;
+        grid-template-columns: auto auto auto auto auto auto;
+    }
+
+    .sm-row-even {
+        display: inline;
+    }
+
+    .md-row-even {
+        display: none;
+    }
+
+    .port-screen {
+        margin-top: 15px;
+    }
+
+    .port-desc {
+        width           : 100%;
+        color           : $orange;
+        border-top      : 2px solid $orange;
+        text-align      : center;
+        background-color: white;
+        padding-top     : 20px;
+        padding-bottom  : 20px;
+    }
+
+    .all-about {
+        display              : grid;
+        grid-template-columns: 49% 49%;
+
+        .about-desc {
+            padding-top: 10px;
+
+            p {
+                font-size: 14px;
+                padding  : 0px 3px 0px 3px;
+            }
+        }
+    }
+}
+
+// small screens
+@media only screen and (max-width: 768px) {
+    .skills {
+        display              : grid;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .sm-row-even {
+        display: inline;
+    }
+
+    .md-row-even {
+        display: none;
+    }
+
+    .port-desc {
+        color           : $orange;
+        text-align      : center;
+        background-color: white;
+    }
+
+    .all-about {
+        display              : grid;
+        grid-template-columns: auto;
+
+        .headshot {
+            display     : block;
+            margin-left : auto;
+            margin-right: auto;
+            width       : 80%;
+            height      : 400px;
+            object-fit  : cover;
+        }
+    }
+
+    .end-icons {
+        margin-left: 30px
+    }
+
+    .foot-icon {
+        font-size    : 20px;
+        float        : left;
+        margin-bottom: 10px;
+    }
+
+}
