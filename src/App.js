@@ -1,22 +1,34 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch} from "react-router-dom";
+import { createBrowserRouter, RouterProvider} from "react-router-dom";
 //Pages to use with the router
 import Main from './pages/Main';
 import ArtGenerator from './pages/ArtGenerator';
 import Lights from './pages/Lights';
 import PublessTrivia from './pages/PublessTrivia';
 
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Main />,
+  },
+  {
+    path: '/lights',
+    element: <Lights />,
+  },
+  {
+    path: '/publesstrivia',
+    element: <PublessTrivia />,
+  },
+  {
+    path: '/artgenerator',
+    element: <ArtGenerator />,
+  },
+])
+
 const App = () => (
-  <BrowserRouter>
-    <div>
-      <Switch>
-        <Route exact path="/" component={Main} />
-        <Route exact path="/lights" component={Lights} />
-        <Route exact path="/publesstrivia" component={PublessTrivia} />
-        <Route exact path="/artgenerator" component={ArtGenerator} />
-      </Switch>
-    </div>
-  </BrowserRouter>
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>
 )
 
 export default App;
