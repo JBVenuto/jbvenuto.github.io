@@ -60,6 +60,7 @@ h1 {
   opacity: 0.25;
   position: fixed;
   top: 250px;
+  left: 0;
 }
 
 .arrow-forward {
