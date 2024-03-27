@@ -8,6 +8,7 @@ import SlideLinks from '../components/SlideLinks';
 import SiteMap from '../components/SiteMap';
 import screenshot from '../images/gifs/northernlightsV2.gif';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import { Link } from 'react-router-dom';
 
 class Lights extends Component {
     constructor(props) {
@@ -47,12 +48,12 @@ class Lights extends Component {
                         <p>I used React and Next.js to build this application. It is deployed to Vercel.</p>
                     </div>
                 </div>
-                <a href="/publesstrivia">
+                <Link to="/publesstrivia">
                     <IoIosArrowBack className="arrow-back" />
-                </a>
-                <a href="/artgenerator">
+                </Link>
+                <Link to="/artgenerator">
                     <IoIosArrowForward className="arrow-forward" />
-                </a>
+                </Link>
                 <SiteMap />
             </div>
         )

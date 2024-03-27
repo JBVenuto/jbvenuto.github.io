@@ -8,6 +8,7 @@ import SlideLinks from '../components/SlideLinks';
 import SiteMap from '../components/SiteMap';
 import screenshot from '../images/gifs/publess-trivia.gif';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import { Link } from 'react-router-dom';
 
 class PublessTrivia extends Component {
     constructor(props) {
@@ -45,12 +46,12 @@ class PublessTrivia extends Component {
                         <p>As previously mentions this application uses Redux and Next.js. To reduce the amount of styling I had to do I used Materialize, a front-end framework. The styling that I did write is written using Sass.</p>
                     </div>
                 </div>
-                <a href="/artgenerator">
+                <Link to="/artgenerator">
                     <IoIosArrowBack className="arrow-back" />
-                </a>
-                <a href="/lights">
+                </Link>
+                <Link to="/lights">
                     <IoIosArrowForward className="arrow-forward" />
-                </a>
+                </Link>
                 <SiteMap />
             </div>
         )
