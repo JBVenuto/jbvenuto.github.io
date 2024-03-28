@@ -44,12 +44,6 @@ class PublessTrivia extends Component {
                         <p>As previously mentions this application uses Redux and Next.js. To reduce the amount of styling I had to do I used Materialize, a front-end framework. The styling that I did write is written using Sass.</p>
                     </div>
                 </div>
-                {/* <Link to="/artgenerator">
-                    <IoIosArrowBack className="arrow-back" />
-                </Link>
-                <Link to="/lights">
-                    <IoIosArrowForward className="arrow-forward" />
-                </Link> */}
                 <SiteMap />
             </div>
         )

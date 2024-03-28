@@ -45,12 +45,6 @@ class ArtGenerator extends Component {
                         <p>This application uses CSS Grid and Vanilla JavaScript</p>
                     </div>
                 </div>
-                {/* <Link to="/lights">
-                    <IoIosArrowBack className="arrow-back" />
-                </Link>
-                <Link to="/publesstrivia">
-                    <IoIosArrowForward className="arrow-forward" />
-                </Link> */}
                 <SiteMap />
             </div>
         )

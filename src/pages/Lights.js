@@ -46,12 +46,6 @@ class Lights extends Component {
                         <p>I used React and Next.js to build this application. It is deployed to Vercel.</p>
                     </div>
                 </div>
-                {/* <Link to="/publesstrivia">
-                    <IoIosArrowBack className="arrow-back" />
-                </Link>
-                <Link to="/artgenerator">
-                    <IoIosArrowForward className="arrow-forward" />
-                </Link> */}
                 <SiteMap />
             </div>
         )
