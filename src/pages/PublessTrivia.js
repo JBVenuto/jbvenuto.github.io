@@ -7,6 +7,8 @@ import SlideScreenshot from '../components/SlideScreenshot';
 import SlideLinks from '../components/SlideLinks';
 import SiteMap from '../components/SiteMap';
 import screenshot from '../images/gifs/publess-trivia.gif';
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import { Link } from 'react-router-dom';
 
 class PublessTrivia extends Component {
     constructor(props) {
@@ -45,6 +47,12 @@ class PublessTrivia extends Component {
                     </div>
                 </div>
                 <SiteMap />
+                <Link to="/artgenerator">
+                    <IoIosArrowBack className="arrow-back" />
+                </Link>
+                <Link to="/lights">
+                    <IoIosArrowForward className="arrow-forward" />
+                </Link>
             </div>
         )
     }
