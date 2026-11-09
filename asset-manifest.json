@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.a353a18e.css",
-    "main.js": "/static/js/main.53c74f6f.js",
+    "main.css": "/static/css/main.4ee145be.css",
+    "main.js": "/static/js/main.b402a8a0.js",
     "static/media/northernlightsV2.gif": "/static/media/northernlightsV2.119eb5c2f4103e8a179f.gif",
-    "static/media/headshotMackinac.jpg": "/static/media/headshotMackinac.483ef8c500a8eebe7a15.jpg",
+    "static/media/headshot26.jpg": "/static/media/headshot26.262f19b9950f2d3217ab.jpg",
     "static/media/northernlights.jpg": "/static/media/northernlights.27ab41503e2d9d5dfad0.jpg",
-    "static/media/restaurants.jpg": "/static/media/restaurants.4b46e9860b7eda12eb50.jpg",
     "static/media/publess-trivia.gif": "/static/media/publess-trivia.4f6d05a88b7547c49e9c.gif",
     "static/media/artgendesk.gif": "/static/media/artgendesk.ce3ccdcd7f0b4fbce579.gif",
     "static/media/v1.jpg": "/static/media/v1.b8a263b5abece57e842a.jpg",
     "static/media/modernart.jpg": "/static/media/modernart.ef780bcff3b6c769e3f3.jpg",
     "static/media/publesstrivia.jpg": "/static/media/publesstrivia.c1fe4cd162177ea55ee1.jpg",
     "index.html": "/index.html",
-    "main.a353a18e.css.map": "/static/css/main.a353a18e.css.map",
-    "main.53c74f6f.js.map": "/static/js/main.53c74f6f.js.map"
+    "main.4ee145be.css.map": "/static/css/main.4ee145be.css.map",
+    "main.b402a8a0.js.map": "/static/js/main.b402a8a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.a353a18e.css",
-    "static/js/main.53c74f6f.js"
+    "static/css/main.4ee145be.css",
+    "static/js/main.b402a8a0.js"
   ]
 }
