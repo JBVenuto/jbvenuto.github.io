@@ -14,13 +14,12 @@ const About = (props) => (
         <div className="about-desc shadow">
             <h3>About Me:</h3><hr></hr>
             <p>
-                I’m a web developer with a background in education. My time in education gave me leadership skills, a professional understanding of the learning process and the skills to adapt this knowledge for efficient self-learning, time management, and organization.
+                I am a Software Engineer and Technical Leader with over seven years of experience building high-traffic, accessible web applications. My background as an educator gives me a unique advantage in technical mentorship, clear communication, and rapid self-learning.            </p>
+            <p>
+                I thrive on solving complex problems at scale. My experience ranges from mastering the MERN stack to architecting enterprise systems, including transforming Comcast’s Xfinity Assistant into a Progressive Web App serving over 100 million annual sessions. I am highly adaptable across the stack, with deep expertise in React, TypeScript, Node.js, and mobile development using Kotlin.
             </p>
             <p>
-                I have an enthusiastic approach to solving problems with technology. With countless predefined techniques already available and the capacity to creatively solve a problem, I am able to determine the best approach to any issue that comes my way. I am an effective communicator with experience teaching others, organizing group projects and have the ability to succeed working in groups or independently.
-            </p>
-            <p>
-                While earning a Web Development Certificate from the University of Central Florida I was formally taught the MERN stack. Additionally, I acquired skills in jQuery, Firebase, MySQL, Handlebars, and modern JavaScript development using NPM and Node.js.
+                Whether I am standardizing reusable component libraries to boost accessibility scores, building robust APIs, or leading external integrations, I bring a collaborative, solution-oriented approach to driving technical excellence.
             </p>
         </div>
     </div>

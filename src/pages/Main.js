@@ -12,10 +12,9 @@ import Skill from '../components/Skill';
 // Imported images
 import publesstrivia from '../images/mainpage/publesstrivia.jpg'
 import northernlights from '../images/mainpage/northernlights.jpg';
-import restaurants from '../images/mainpage/restaurants.jpg';
 import modernart from '../images/mainpage/modernart.jpg';
 import v from '../images/mainpage/v1.jpg';
-import me from '../images/mainpage/headshotMackinac.jpg'
+import me from '../images/mainpage/headshot26.jpg'
 
 class App extends Component {
   constructor(props) {
