@@ -15,12 +15,16 @@
     "web-vitals": "^6.2.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "concurrently -k \"sass --watch src/pages/style.scss:src/pages/main.css\" \"react-scripts start\"",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.5",
+    "sass": "^1.108.1"
   },
   "eslintConfig": {
     "extends": [
