@@ -5,7 +5,7 @@ const Header = (props) => (
         <div className="name__wrap">
             <div className="header__name">
                 <h1>Joseph Venuto</h1><hr></hr>
-                <h2>Web Developer</h2>
+                <h2>Software Engineer</h2>
             </div>
         </div>
 

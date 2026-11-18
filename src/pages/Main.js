@@ -38,18 +38,17 @@ class App extends Component {
           {/*  ------Skills section------ */}
           <span id="skills"></span>
           <div className="skills">
-            <Skill skill="HTML" id="first-skill" />
-            <Skill skill="CSS" />
-            <Skill skill="Sass" />
-            <Skill skill="BootStrap" />
-            <Skill skill="JavaScript" />
+            <Skill skill="JavaScript" id="first-skill" />
+            <Skill skill="TypeScript" />
             <Skill skill="React" />
-            {/* <Skill skill="jQuery" /> */}
-            <Skill skill="Node.js" /> 
-            <Skill skill="Express" /> 
+            <Skill skill="Vue" />
+            <Skill skill="Node" />
+            <Skill skill="Express" />
+            <Skill skill="Accessibility (WCAG)" />
+            <Skill skill="Unit Tests" />  
             <Skill skill="REST API" />
-            <Skill skill="MySQL" />
-            <Skill skill="MongoDB" />
+            <Skill skill="AI Integration" />
+            <Skill skill="Component Libraries" />
             <Skill skill="Git" id="last-skill" />
           </div>
 
