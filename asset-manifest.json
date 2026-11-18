@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b2224f19.css",
-    "main.js": "/static/js/main.b402a8a0.js",
+    "main.css": "/static/css/main.f30a9468.css",
+    "main.js": "/static/js/main.579087da.js",
     "static/media/northernlightsV2.gif": "/static/media/northernlightsV2.119eb5c2f4103e8a179f.gif",
     "static/media/headshot26.jpg": "/static/media/headshot26.262f19b9950f2d3217ab.jpg",
     "static/media/northernlights.jpg": "/static/media/northernlights.27ab41503e2d9d5dfad0.jpg",
@@ -11,11 +11,11 @@
     "static/media/modernart.jpg": "/static/media/modernart.ef780bcff3b6c769e3f3.jpg",
     "static/media/publesstrivia.jpg": "/static/media/publesstrivia.c1fe4cd162177ea55ee1.jpg",
     "index.html": "/index.html",
-    "main.b2224f19.css.map": "/static/css/main.b2224f19.css.map",
-    "main.b402a8a0.js.map": "/static/js/main.b402a8a0.js.map"
+    "main.f30a9468.css.map": "/static/css/main.f30a9468.css.map",
+    "main.579087da.js.map": "/static/js/main.579087da.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2224f19.css",
-    "static/js/main.b402a8a0.js"
+    "static/css/main.f30a9468.css",
+    "static/js/main.579087da.js"
   ]
 }
