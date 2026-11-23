@@ -12,8 +12,8 @@ const AIExperiences = () => (
         <NavSlide
             hrefBack='/contexthubui'
             nameBack='ContextHubUI'
-            hrefNext='/xfinityassistant'
-            nameNext='Xfinity Assistant'
+            hrefNext='/trackerce'
+            nameNext='Tracker-CE Documentation'
         />
         <div className="container">
             <SlideName name='AI Experiences in Xfinity Assistant' />
@@ -55,7 +55,7 @@ const AIExperiences = () => (
         <Link to="/contexthubui">
             <IoIosArrowBack className="arrow-back" />
         </Link>
-        <Link to="/xfinityassistant">
+        <Link to="/trackerce">
             <IoIosArrowForward className="arrow-forward" />
         </Link>
     </div>

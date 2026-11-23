@@ -21,8 +21,8 @@ class XA extends Component {
         return (
             <div>
                 <NavSlide 
-                    hrefBack='/aiexperiences'
-                    nameBack='AI Experiences in Xfinity Assistant'
+                    hrefBack='/trackerce'
+                    nameBack='Tracker-CE Documentation'
                     hrefNext='/contexthubui'
                     nameNext='ContextHubUI'
                 />
@@ -68,7 +68,7 @@ class XA extends Component {
                     </div>
                 </div>
                 <SiteMap />
-                <Link to="/aiexperiences">
+                <Link to="/trackerce">
                     <IoIosArrowBack className="arrow-back" />
                 </Link>
                 <Link to="/contexthubui">

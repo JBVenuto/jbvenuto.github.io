@@ -8,6 +8,7 @@ import PublessTrivia from './pages/PublessTrivia';
 import XA from './pages/XA';
 import ContextHubUI from './pages/ContextHubUI';
 import AIExperiences from './pages/AIExperiences';
+import TrackerCE from './pages/TrackerCE';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
   // {
   //   path: '/aiexperiences',
   //   element: <AIExperiences />
+  // },
+  // {
+  //   path: '/trackerce',
+  //   element: <TrackerCE />
   // }
 ])
 

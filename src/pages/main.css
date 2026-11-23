@@ -48,7 +48,6 @@ body {
   width: 25%;
   height: auto;
 }
-
 @media only screen and (max-width: 768px) {
   .header {
     flex-direction: column-reverse;
@@ -99,45 +98,6 @@ body {
   grid-template-columns: 49.5% 49.5%;
   grid-column-gap: 1em;
 }
-
-@media only screen and (max-width: 768px) {
-  .skills {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-  }
-  .sm-row-even {
-    display: inline;
-  }
-  .md-row-even {
-    display: none;
-  }
-  .port-desc {
-    color: #ffa500;
-    text-align: center;
-    background-color: white;
-  }
-  .all-about {
-    display: grid;
-    grid-template-columns: auto;
-  }
-  .all-about .headshot {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    height: 400px;
-    object-fit: cover;
-  }
-  .end-icons {
-    margin-left: 30px;
-  }
-  .foot-icon {
-    font-size: 20px;
-    float: left;
-    margin-bottom: 10px;
-  }
-}
-
 @media only screen and (max-width: 992px) {
   .port-row {
     grid-template-columns: auto;
@@ -259,11 +219,41 @@ body {
     padding: 0px 3px 0px 3px;
   }
 }
-
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 768px) {
   .skills {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
+  }
+  .sm-row-even {
+    display: inline;
+  }
+  .md-row-even {
+    display: none;
+  }
+  .port-desc {
+    color: #ffa500;
+    text-align: center;
+    background-color: white;
+  }
+  .all-about {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .all-about .headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .end-icons {
+    margin-left: 30px;
+  }
+  .foot-icon {
+    font-size: 20px;
+    float: left;
+    margin-bottom: 10px;
   }
 }
 
