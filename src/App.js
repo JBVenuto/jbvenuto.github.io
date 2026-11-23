@@ -5,6 +5,9 @@ import Main from './pages/Main';
 import ArtGenerator from './pages/ArtGenerator';
 import Lights from './pages/Lights';
 import PublessTrivia from './pages/PublessTrivia';
+import XA from './pages/XA';
+import ContextHubUI from './pages/ContextHubUI';
+import AIExperiences from './pages/AIExperiences';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +26,18 @@ const router = createBrowserRouter([
     path: '/artgenerator',
     element: <ArtGenerator />,
   },
+  // {
+  //   path: '/xfinityassistant',
+  //   element: <XA />
+  // },
+  // {
+  //   path: '/contexthubui',
+  //   element: <ContextHubUI />
+  // },
+  // {
+  //   path: '/aiexperiences',
+  //   element: <AIExperiences />
+  // }
 ])
 
 const App = () => (
