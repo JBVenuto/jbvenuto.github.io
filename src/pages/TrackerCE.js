@@ -3,6 +3,7 @@ import './slide.css';
 
 import NavSlide from '../components/NavSlide';
 import SlideName from '../components/SlideName';
+import SlideLinks from '../components/SlideLinks';
 import SiteMap from '../components/SiteMap';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { Link } from 'react-router-dom';
@@ -17,6 +18,11 @@ const TrackerCE = () => (
         />
         <div className="container">
             <SlideName name='Tracker-CE Documentation Website' />
+            <SlideLinks
+                liveHref='https://jbvenuto.github.io/tracker-ce/Home/'
+                gitHubHref='https://github.com/JBVenuto/tracker-ce'
+            />
+            {/* TODO: Add a screenshot or image for Tracker-CE Documentation. */}
             <div className="slide-description shadow">
                 <p><strong>Role:</strong> Designer &amp; Developer</p>
                 <p><strong>Technologies:</strong> Astro, TypeScript, Static Site Generation</p>

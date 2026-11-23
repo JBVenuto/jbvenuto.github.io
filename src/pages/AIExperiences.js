@@ -17,6 +17,7 @@ const AIExperiences = () => (
         />
         <div className="container">
             <SlideName name='AI Experiences in Xfinity Assistant' />
+            {/* TODO: Add a screenshot or image for AI Experiences in Xfinity Assistant. */}
             <div className="slide-description shadow">
                 <p><strong>Role:</strong> Software Engineer III</p>
                 <p><strong>Technologies:</strong> Google ADK, A2UI, React, TypeScript, Generative AI</p>

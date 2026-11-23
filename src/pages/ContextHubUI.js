@@ -17,6 +17,7 @@ const ContextHubUI = () => (
         />
         <div className="container">
             <SlideName name='ContextHubUI' />
+            {/* TODO: Add a screenshot or image for ContextHubUI. */}
             <div className="slide-description shadow">
                 <p><strong>Role:</strong> Software Engineer III</p>
                 <p><strong>Technologies:</strong> React, TypeScript, Internal Platform Development</p>

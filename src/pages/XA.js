@@ -28,10 +28,7 @@ class XA extends Component {
                 />
                 <div className="container">
                     <SlideName name='Xfinity Assistant' />
-                    {/* <SlideScreenshot 
-                        src={screenshot}
-                        alt='Publess Trivia'
-                    /> */}
+                    {/* TODO: Add a screenshot or image for Xfinity Assistant. */}
                     <SlideLinks
                         liveHref='https://www.xfinity.com/xfinityassistant'
                     />
