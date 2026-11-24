@@ -1,21 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.f30a9468.css",
-    "main.js": "/static/js/main.579087da.js",
-    "static/media/northernlightsV2.gif": "/static/media/northernlightsV2.119eb5c2f4103e8a179f.gif",
+    "main.css": "/static/css/main.88babf6e.css",
+    "main.js": "/static/js/main.6a59037c.js",
     "static/media/headshot26.jpg": "/static/media/headshot26.262f19b9950f2d3217ab.jpg",
-    "static/media/northernlights.jpg": "/static/media/northernlights.27ab41503e2d9d5dfad0.jpg",
-    "static/media/publess-trivia.gif": "/static/media/publess-trivia.4f6d05a88b7547c49e9c.gif",
-    "static/media/artgendesk.gif": "/static/media/artgendesk.ce3ccdcd7f0b4fbce579.gif",
     "static/media/v1.jpg": "/static/media/v1.b8a263b5abece57e842a.jpg",
-    "static/media/modernart.jpg": "/static/media/modernart.ef780bcff3b6c769e3f3.jpg",
-    "static/media/publesstrivia.jpg": "/static/media/publesstrivia.c1fe4cd162177ea55ee1.jpg",
     "index.html": "/index.html",
-    "main.f30a9468.css.map": "/static/css/main.f30a9468.css.map",
-    "main.579087da.js.map": "/static/js/main.579087da.js.map"
+    "main.88babf6e.css.map": "/static/css/main.88babf6e.css.map",
+    "main.6a59037c.js.map": "/static/js/main.6a59037c.js.map"
   },
   "entrypoints": [
-    "static/css/main.f30a9468.css",
-    "static/js/main.579087da.js"
+    "static/css/main.88babf6e.css",
+    "static/js/main.6a59037c.js"
   ]
 }
