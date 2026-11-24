@@ -22,10 +22,11 @@ const TrackerCE = () => (
                 liveHref='https://jbvenuto.github.io/tracker-ce/Home/'
                 gitHubHref='https://github.com/JBVenuto/tracker-ce'
             />
-            {/* TODO: Add a screenshot or image for Tracker-CE Documentation. */}
             <div className="slide-description shadow">
-                <p><strong>Role:</strong> Designer &amp; Developer</p>
-                <p><strong>Technologies:</strong> Astro, TypeScript, Static Site Generation</p>
+                <div className="project-meta">
+                    <p><strong>Role</strong><span>Designer &amp; Developer</span></p>
+                    <p><strong>Technologies</strong><span>Astro, TypeScript, Static Site Generation</span></p>
+                </div>
 
                 <h2>Context</h2>
                 <p>Tracker-CE is a community-maintained knowledge base for the Polyend Tracker. The existing documentation contained valuable information, but its presentation made navigation and discovery more difficult than it needed to be for a workflow-centric instrument.</p>

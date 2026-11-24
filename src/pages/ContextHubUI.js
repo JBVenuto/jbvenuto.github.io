@@ -17,10 +17,11 @@ const ContextHubUI = () => (
         />
         <div className="container">
             <SlideName name='ContextHubUI' />
-            {/* TODO: Add a screenshot or image for ContextHubUI. */}
             <div className="slide-description shadow">
-                <p><strong>Role:</strong> Software Engineer III</p>
-                <p><strong>Technologies:</strong> React, TypeScript, Internal Platform Development</p>
+                <div className="project-meta">
+                    <p><strong>Role</strong><span>Software Engineer III</span></p>
+                    <p><strong>Technologies</strong><span>React, TypeScript, Internal Platform Development</span></p>
+                </div>
 
                 <h2>Context</h2>
                 <p>Product teams relied on engineering resources to configure data mappings and operational workflows that powered customer experiences.</p>

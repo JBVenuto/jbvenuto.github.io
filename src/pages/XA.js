@@ -28,13 +28,14 @@ class XA extends Component {
                 />
                 <div className="container">
                     <SlideName name='Xfinity Assistant' />
-                    {/* TODO: Add a screenshot or image for Xfinity Assistant. */}
                     <SlideLinks
                         liveHref='https://www.xfinity.com/xfinityassistant'
                     />
                     <div className="slide-description shadow">
-                        <p><strong>Role:</strong> Software Engineer II → III</p>
-                        <p><strong>Technologies:</strong> React, TypeScript, PWA, Node.js, Accessibility</p>
+                        <div className="project-meta">
+                            <p><strong>Role</strong><span>Software Engineer II → III</span></p>
+                            <p><strong>Technologies</strong><span>React, TypeScript, PWA, Node.js, Accessibility</span></p>
+                        </div>
 
                         <h2>Context</h2>
                         <p>Xfinity Assistant is a customer support platform serving over 100M annual customer sessions. As the platform grew, performance, accessibility, and maintainability became increasingly important.</p>

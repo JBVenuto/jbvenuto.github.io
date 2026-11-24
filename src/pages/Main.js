@@ -53,7 +53,6 @@ class App extends Component {
           <div className="portfolio" >
             {/* ------Xfinity Assistant------ */}
             <Link to="/xfinityassistant" className="port-row">
-              {/* TODO: Add a screenshot or image for Xfinity Assistant. */}
               <PortfoDesc 
                   title="Xfinity Assistant"
                   description="PWA transformation, platform architecture, accessibility, and AI-powered support experiences"
@@ -61,7 +60,6 @@ class App extends Component {
             </Link>
             {/* ------ContextHubUI------ */}
             <Link to="/contexthubui" className="port-row">
-              {/* TODO: Add a screenshot or image for ContextHubUI. */}
               <PortfoDesc 
                   title="ContextHubUI"
                   description="Self-service platform for managing data mappings and operational workflows"
@@ -69,7 +67,6 @@ class App extends Component {
             </Link>
             {/* ------AI Experiences in Xfinity Assistant------ */}
             <Link to="/aiexperiences" className="port-row">
-              {/* TODO: Add a screenshot or image for AI Experiences in Xfinity Assistant. */}
               <PortfoDesc 
                   title="AI Experiences in Xfinity Assistant"
                   description="Integrating generative AI and conversational experiences into enterprise customer support"
@@ -77,7 +74,6 @@ class App extends Component {
             </Link>
             {/* ------Tracker-CE Documentation------ */}
             <Link to="/trackerce" className="port-row">
-              {/* TODO: Add a screenshot or image for Tracker-CE Documentation. */}
               <PortfoDesc 
                   title="Tracker-CE Documentation"
                   description="Astro documentation experience inspired by the workflow and visual identity of the Polyend Tracker"
