@@ -6,13 +6,9 @@ import About from '../components/About';
 import Header from '../components/Header';
 import Nav from '../components/Nav';
 import PortfoDesc from '../components/PortfoDesc';
-import PortfoScreen from '../components/PortfoScreen';
 import SiteMap from '../components/SiteMap';
 import Skill from '../components/Skill';
 // Imported images
-import publesstrivia from '../images/mainpage/publesstrivia.jpg'
-import northernlights from '../images/mainpage/northernlights.jpg';
-import modernart from '../images/mainpage/modernart.jpg';
 import v from '../images/mainpage/v1.jpg';
 import me from '../images/mainpage/headshot26.jpg'
 
@@ -55,53 +51,32 @@ class App extends Component {
           {/* ------Portfolio section------ */}
           <span id="portfolio"></span>
           <div className="portfolio" >
-            {/* ------Publess Trivia------ */}
-            <Link to="/publesstrivia" className="port-row">
-              <PortfoScreen
-                  className="portScreen1"
-                  src={publesstrivia}
-                  alt="Screenshot of publess trivia"
-              />
+            {/* ------Xfinity Assistant------ */}
+            <Link to="/xfinityassistant" className="port-row">
               <PortfoDesc 
-                  className="portDesc1"
-                  title="Publess Trivia"
-                  description="Social distanced trivia game to play with friends over video chat"
+                  title="Xfinity Assistant"
+                  description="PWA transformation, platform architecture, accessibility, and AI-powered support experiences"
               />
             </Link>
-            {/* ------Find Your Lights------ */}
-            <Link to="/lights" className="port-row">
-              <PortfoScreen
-                  src={northernlights}
-                  alt="Screenshot of Find Your Lights"
-              />
+            {/* ------ContextHubUI------ */}
+            <Link to="/contexthubui" className="port-row">
               <PortfoDesc 
-                  title="Find Your Lights"
-                  description="Application allows user to find when Northern Lights will be visible"
+                  title="ContextHubUI"
+                  description="Self-service platform for managing data mappings and operational workflows"
               />
             </Link>
-            {/* ------Art Generator------ */}
-            <Link to="/artgenerator" className="port-row sm-row-even">
-              <PortfoScreen
-                  className="portScreen2"
-                  src={modernart}
-                  alt="Screenshot of Modern Art Generator"
-              />
+            {/* ------AI Experiences in Xfinity Assistant------ */}
+            <Link to="/aiexperiences" className="port-row">
               <PortfoDesc 
-                  className="portDesc2"
-                  title="Modern Art Generator"
-                  description="Each load will create a piece of modern art randomly generated with JavaScript"
+                  title="AI Experiences in Xfinity Assistant"
+                  description="Integrating generative AI and conversational experiences into enterprise customer support"
               />
             </Link>
-            <Link to="/artgenerator" className="port-row md-row-even">
+            {/* ------Tracker-CE Documentation------ */}
+            <Link to="/trackerce" className="port-row">
               <PortfoDesc 
-                  className="portDesc2"
-                  title="Modern Art Generator"
-                  description="Each load will create a piece of modern art randomly generated with JavaScript"
-              />
-              <PortfoScreen
-                  className="portScreen2"
-                  src={modernart}
-                  alt="Screenshot of Modern Art Generator"
+                  title="Tracker-CE Documentation"
+                  description="Astro documentation experience inspired by the workflow and visual identity of the Polyend Tracker"
               />
             </Link>
           </div>

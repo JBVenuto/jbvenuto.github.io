@@ -27,13 +27,16 @@ const SiteMap = (props) => (
                 <div className="col-sm-4">
                     <ul>
                         <li>
-                            <Link to="/publesstrivia">Publess Trivia</Link>
+                            <Link to="/xfinityassistant">Xfinity Assistant</Link>
                         </li>
                         <li>
-                            <Link to="/lights">Find Your Lights</Link>
+                            <Link to="/contexthubui">ContextHubUI</Link>
                         </li>
                         <li>
-                            <Link to="/artgenerator">Modern Art Generator</Link>
+                            <Link to="/aiexperiences">AI Experiences in Xfinity Assistant</Link>
+                        </li>
+                        <li>
+                            <Link to="/trackerce">Tracker-CE Documentation</Link>
                         </li>
                     </ul>
                 </div>

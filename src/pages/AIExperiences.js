@@ -18,8 +18,10 @@ const AIExperiences = () => (
         <div className="container">
             <SlideName name='AI Experiences in Xfinity Assistant' />
             <div className="slide-description shadow">
-                <p><strong>Role:</strong> Software Engineer III</p>
-                <p><strong>Technologies:</strong> Google ADK, A2UI, React, TypeScript, Generative AI</p>
+                <div className="project-meta">
+                    <p><strong>Role</strong><span>Software Engineer III</span></p>
+                    <p><strong>Technologies</strong><span>Google ADK, A2UI, React, TypeScript, Generative AI</span></p>
+                </div>
 
                 <h2>Context</h2>
                 <p>As generative AI capabilities matured, Xfinity Assistant began exploring how AI could enhance customer support interactions and provide more flexible conversational experiences.</p>
