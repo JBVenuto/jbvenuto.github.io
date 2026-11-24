@@ -160,14 +160,13 @@ body {
 .all-about {
   margin-top: 30px;
   margin-bottom: 15px;
-  display: grid;
-  grid-template-columns: 33% 66%;
-  grid-column-gap: 1em;
+  display: block;
 
   .about-desc {
     background-color: white;
     font-family: "Roboto", sans-serif;
     padding: 30px 15px;
+    display: flow-root;
 
     h3 {
       text-align: center;
@@ -180,13 +179,15 @@ body {
   }
 
   .about-headshot {
-    display: flex;
-    align-items: center;
-    height: 100%;
+    float: left;
+    width: 30%;
+    max-width: 300px;
+    margin: 8px 20px 12px 8px;
 
     .headshot {
       width: 100%;
       height: auto;
+      display: block;
     }
   }
 }
@@ -242,9 +243,6 @@ body {
   }
 
   .all-about {
-    display: grid;
-    grid-template-columns: 49% 49%;
-
     .about-desc {
       padding-top: 10px;
 
@@ -278,16 +276,10 @@ body {
   }
 
   .all-about {
-    display: grid;
-    grid-template-columns: auto;
-
-    .headshot {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 80%;
-      height: 400px;
-      object-fit: cover;
+    .about-headshot {
+      width: 40%;
+      max-width: none;
+      margin: 8px 12px 10px 0;
     }
   }
 

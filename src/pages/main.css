@@ -149,14 +149,13 @@ body {
 .all-about {
   margin-top: 30px;
   margin-bottom: 15px;
-  display: grid;
-  grid-template-columns: 33% 66%;
-  grid-column-gap: 1em;
+  display: block;
 }
 .all-about .about-desc {
   background-color: white;
   font-family: "Roboto", sans-serif;
   padding: 30px 15px;
+  display: flow-root;
 }
 .all-about .about-desc h3 {
   text-align: center;
@@ -166,13 +165,15 @@ body {
   padding: 8px;
 }
 .all-about .about-headshot {
-  display: flex;
-  align-items: center;
-  height: 100%;
+  float: left;
+  width: 30%;
+  max-width: 300px;
+  margin: 8px 20px 12px 8px;
 }
 .all-about .about-headshot .headshot {
   width: 100%;
   height: auto;
+  display: block;
 }
 
 .site-map {
@@ -217,10 +218,6 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .all-about {
-    display: grid;
-    grid-template-columns: 49% 49%;
-  }
   .all-about .about-desc {
     padding-top: 10px;
   }
@@ -245,17 +242,10 @@ body {
     text-align: center;
     background-color: white;
   }
-  .all-about {
-    display: grid;
-    grid-template-columns: auto;
-  }
-  .all-about .headshot {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    height: 400px;
-    object-fit: cover;
+  .all-about .about-headshot {
+    width: 40%;
+    max-width: none;
+    margin: 8px 12px 10px 0;
   }
   .end-icons {
     margin-left: 30px;
